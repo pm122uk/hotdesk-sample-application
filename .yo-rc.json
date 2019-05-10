@@ -1,0 +1,44 @@
+{
+  "generator-jhipster": {
+    "applicationType": "monolith",
+    "gitCompany": "",
+    "baseName": "Hotdesk",
+    "packageName": "io.github.hotdesk.application",
+    "packageFolder": "io/github/hotdesk/application",
+    "serverPort": 8080,
+    "serviceDiscoveryType": false,
+    "authenticationType": "jwt",
+    "uaaBaseName": "../uaa",
+    "cacheProvider": "ehcache",
+    "enableHibernateCache": true,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "h2Disk",
+    "prodDatabaseType": "mysql",
+    "searchEngine": false,
+    "enableSwaggerCodegen": false,
+    "messageBroker": false,
+    "buildTool": "maven",
+    "useSass": true,
+    "clientPackageManager": "npm",
+    "testFrameworks": [
+      "protractor"
+    ],
+    "enableTranslation": false,
+    "nativeLanguage": "en",
+    "languages": [
+      "en"
+    ],
+    "clientFramework": "angularX",
+    "jhiPrefix": "jhi",
+    "jhipsterVersion": "6.0.0",
+    "jwtSecretKey": "ZTk5MjkxZjJlZmI0MTAzMWU5ODE5MGMwNTUyMDdkM2YzZmVhOTk0MDY1MzZlMDIyZWZjZWVhOGEzMjcyNGNkZTNiYmUwYmRjNzE4NDRhMTQ4MGY3NDExZTg0NWZmZGRkMWEyYjk1ZThjZGRmZTNjZTMxMTE3NjViOThjNDQ2MDk=",
+    "clientTheme": "none",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": []
+  },
+  "git-provider": "GitHub",
+  "git-company": "pm122uk",
+  "repository-name": "hotdesk-sample-application"
+}
